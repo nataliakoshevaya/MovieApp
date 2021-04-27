@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    text-align: center;
+    background-color: #22254b;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header__logo {
+    font-size: 30px;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.movies {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.movies__wrapper {
+    width: 33.33%;
+    margin-bottom: 20px;
+    position: relative;
+    cursor: pointer;
+    padding-top: 10px;
+}
+
+.movies__wrapper:hover {
+    background-color: #001729;
+    opacity: .6;
+}
+
+.movies__poster {
+    width: 300px;
+    height: 440px;
+}
+
+.header {
+    padding: 10px 0;
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.movies__title {
+    color: #fff;
+    font-size: 20px;
+}
+
+.movies__genres {
+    color: #ffdf12;
+}
+
+.movies__rating {
+    position: absolute;
+    top: 18px;
+    left: 75px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    border: 2px solid green;
+    background-color: grey;
+    opacity: 0.6;
+}
+
+.movies__rating--green {
+    border-color: green;
+}
+
+.movies__rating--red {
+    border-color: red;
+}
+
+.header__input {
+    padding: 10px;
+    outline: none;
+}
+
+.movies__btn {
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #4C55F5;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+}
+
+.movies__btn:hover {
+    color: #4C55F5;
+    background-color: #fff;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
